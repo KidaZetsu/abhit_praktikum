@@ -37,21 +37,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
 
-
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:elevation="1dp"
+        app:cardBackgroundColor="#6AD76A"
+        app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:elevation="1dp"
-        app:cardCornerRadius="30dp"
-        app:cardBackgroundColor="#6AD76A"
-        app:strokeColor="@color/black"
-        app:strokeWidth="5dp"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword"
-        app:layout_constraintVertical_bias="0.378">
+        app:layout_constraintVertical_bias="0.378"
+        app:strokeColor="@color/black"
+        app:strokeWidth="5dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -86,6 +86,16 @@
 
 
     </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/btnlima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pertemuan 5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
