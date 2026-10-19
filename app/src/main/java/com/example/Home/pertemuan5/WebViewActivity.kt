@@ -1,4 +1,4 @@
-package com.example.gedeabhita.pertemuan5
+package com.example.Home.pertemuan5
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.gedeabhita.R
-import com.example.gedeabhita.databinding.ActivityMainBinding
 import com.example.gedeabhita.databinding.ActivityWebViewBinding
 
 class WebViewActivity : AppCompatActivity() {

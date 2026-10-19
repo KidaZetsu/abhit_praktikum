@@ -1,4 +1,4 @@
-package com.example.gedeabhita
+package com.example
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,10 +8,10 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.gedeabhita.databinding.ActivityLoginBinding
+import com.example.Home.pertemuan5.LimaActivity
+import com.example.gedeabhita.R
 import com.example.gedeabhita.databinding.ActivityMainBinding
-import com.example.gedeabhita.pertemuan5.LimaActivity
-import com.example.pertemuan6.EnamActivity
+import com.example.Home.pertemuan6.EnamActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 

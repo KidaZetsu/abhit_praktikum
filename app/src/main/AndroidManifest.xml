@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GedeAbhita">
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.example.BaseActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -24,23 +24,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".pertemuan5.LimaActivity"
+            android:name="com.example.Home.pertemuan5.LimaActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".pertemuan5.WebViewActivity"
+            android:name="com.example.Home.pertemuan5.WebViewActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.example.pertemuan6.EnamActivity"
+            android:name="com.example.Home.pertemuan6.EnamActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.SplashScreenActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.Message.MessageActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
