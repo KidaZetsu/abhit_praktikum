@@ -15,6 +15,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.Home.pertemuan5.LimaActivity
 import com.example.Home.pertemuan6.EnamActivity
+import com.example.Home.pertemuan9.NinthActivity
 import com.example.LoginActivity
 import com.example.gedeabhita.R
 import com.example.gedeabhita.databinding.ActivityMainBinding
@@ -82,6 +83,10 @@ class HomeFragment : Fragment() {
             startActivity(Intent (requireContext(), EnamActivity::class.java))
         }
 
+        binding.btnSembilan.setOnClickListener {
+            startActivity(Intent(requireContext(), NinthActivity::class.java ))
+        }
+
         binding.btnLogout.setOnClickListener {
             AlertDialog.Builder(requireActivity())
                 .setTitle("Logout")
@@ -97,6 +102,7 @@ class HomeFragment : Fragment() {
                 .setNegativeButton("Batal") { dialog, _ -> dialog.dismiss() }
                 .show()
         }
+
 
     }
     }
