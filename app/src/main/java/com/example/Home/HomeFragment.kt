@@ -16,6 +16,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.Home.pertemuan5.LimaActivity
 import com.example.Home.pertemuan6.EnamActivity
 import com.example.Home.pertemuan9.NinthActivity
+import com.example.Home.pertemuan_10.TenthActivity
 import com.example.LoginActivity
 import com.example.gedeabhita.R
 import com.example.gedeabhita.databinding.ActivityMainBinding
@@ -85,6 +86,10 @@ class HomeFragment : Fragment() {
 
         binding.btnSembilan.setOnClickListener {
             startActivity(Intent(requireContext(), NinthActivity::class.java ))
+        }
+
+        binding.btnSepuluh.setOnClickListener {
+            startActivity(Intent(requireContext(), TenthActivity::class.java ))
         }
 
         binding.btnLogout.setOnClickListener {

@@ -127,14 +127,7 @@
         app:layout_gravity="fill_horizontal"
        />
 
-    <Button
-        android:id="@+id/btnLogout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logout"
-        app:layout_columnWeight="1"
-        app:layout_gravity="fill_horizontal"
-      />
+
 
     <Button
         android:id="@+id/btnEnam"
@@ -155,6 +148,27 @@
         app:layout_columnWeight="1"
         app:layout_gravity="fill_horizontal"
         />
+
+
+     <Button
+         android:id="@+id/btnSepuluh"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:backgroundTint="#D36F10"
+         android:text="Pertemuan 10"
+         app:layout_columnWeight="1"
+         app:layout_gravity="fill_horizontal"
+         />
+
+     <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill_horizontal"
+        />
+
 
     </androidx.gridlayout.widget.GridLayout>
 
