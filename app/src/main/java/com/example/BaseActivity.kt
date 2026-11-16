@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import com.example.Home.HomeFragment
 import com.example.Message.MessageFragment
 import com.example.More.MoreFragment
+import com.example.Note.FragmentNote
 import com.example.gedeabhita.R
 import com.example.gedeabhita.databinding.ActivityBaseBinding
 
@@ -41,6 +42,10 @@ class BaseActivity : AppCompatActivity() {
                 }
                 R.id.more -> {
                     replaceFragment(MoreFragment())
+                    true
+                }
+                R.id.note -> {
+                    replaceFragment(FragmentNote())
                     true
                 }
                 else -> false
